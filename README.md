@@ -21,4 +21,3 @@ This repository contains my practice files on SQL topics.
 - INSERT
 - UPDATE
 - DELETE
-- SELECT
