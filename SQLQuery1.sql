@@ -1,6 +1,8 @@
+--Basics of SQL Syntax--
+
 use learnsql;
 go
-
+--DDL (Data Definition Language)--
 create table students(
 id int primary key,
 name nvarchar(50),
@@ -27,6 +29,8 @@ GO
 --delete entire table--
 DROP TABLE students;
 GO
+--DML (Data Manipulation Language)--
+
 --insert values--
 INSERT INTO students (id, name, age)
 VALUES (1, 'Kishore', 21);
@@ -57,6 +61,7 @@ GO
 
 
 
-
+--to print the data--
 SELECT * FROM students;
+
 INSERT INTO students VALUES (1, 'Kishore', 21);
