@@ -41,14 +41,6 @@ VALUES
 (2, 'John', 22),
 (3, 'Priya', 20);
 GO
---select specific col--
-SELECT name, age FROM students;
-GO
-
---where for filter values--
-SELECT * FROM students
-WHERE age > 21;
-GO
 --modify existing record--
 UPDATE students
 SET age = 23
@@ -59,6 +51,14 @@ DELETE FROM students
 WHERE id = 3;
 GO
 
+--select specific col--
+SELECT name, age FROM students;
+GO
+
+--where for filter values--
+SELECT * FROM students
+WHERE age > 21;
+GO
 
 
 --to print the data--
